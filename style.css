@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "openSans";
+    src: url(font/OpenSans.woff);
+    format: "woff";
+    src: url(font/OpenSans.woff2);
+    format: "woff";
+  }
+  * {
+    font-family: "openSans";
+    color: #444;
+    
+  }
+  body{
+    border-top: 10px solid #55008e;
+  }
+  h3{
+      color: #4062bb;
+      font-size: 32px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  h1{
+    color: #4062bb;
+    font-style: italic;
+    font-size: 25px;
+    padding: 20px;
+  }
+  h2{
+    color: #4062bb;
+    font-size: 40px;
+    padding: 20px;
+  }
+
+  button{
+    border: #fff;
+    background-color:#f7f7f7;
+    text-align: left;
+    padding-right: 400px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  a:link{
+    text-decoration :none;
+    color: #4062bb;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  a:visited{
+    color: #55008a;
+  }
+  a:hover{
+    color: #55008a;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  #home{
+    margin-left: 350px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+
+  }
+  p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  li{
+    font-size: 20px;
+    margin: 10px;
+  }
+  li:first-child{
+    font-weight: bold;
+  }
+  aside{
+    background-color:#f7f7f7;
+    border-top: 5px solid #55008e;
+    border-bottom: 5px solid #55008e;
+    width: 500px;
+    padding: 35px;
+    
+  }
+  h4{
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  footer{
+    padding: 15px;
+  }
